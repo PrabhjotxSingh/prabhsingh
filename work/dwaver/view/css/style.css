@@ -1,0 +1,406 @@
+html,
+body{
+  height: 100%;
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+   animation-name: bodyfade;
+  animation-duration: 1s;
+}
+
+@-webkit-keyframes bodyfade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+h1{
+	font-weight: bold;
+}
+
+.center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.centermain{
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.btn {
+  padding: 5px 20px;
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-decoration: none;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.btn:hover {
+  background-color: transparent;
+  color: black;
+  border-bottom: 1px solid black;
+}
+
+
+.btnmain {
+	font-weight: 900;
+  padding: 5px 20px;
+  background-color: white;
+  color: black;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-decoration: none;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.btnmain:hover {
+  background-color: transparent;
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+.btnunderline {
+  padding: 0px 10px;
+  background-color: black;
+  color: white;
+  border-bottom: 1px solid white;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-decoration: none;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.btnunderline:hover {
+  background-color: transparent;
+  color: white;
+}
+
+.btn2 {
+	top: 0px;
+	position: fixed;
+  padding: 1px 5px;
+  background-color: black;
+  color: black;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-decoration: none;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.btn2:hover {
+  background-color: transparent;
+  color: black;
+  border-bottom: 1px solid black;
+}
+
+
+.btn2white {
+	top: 0px;
+	position: fixed;
+  padding: 1px 5px;
+  background-color: white;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-decoration: none;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.btn2white:hover {
+  background-color: transparent;
+  color: black;
+  border-bottom: 1px solid white;
+}
+
+.hidemode{
+	display: none;
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	z-index: 10;
+	background-image: url("../img/hidemode.PNG");
+	background-color: black;
+	cursor: pointer;
+	background-position: center;
+  background-size: cover;
+  top: 0;
+  left: 0;
+      animation-name: showhidemodea;
+    animation-duration: 0.2s
+	
+}
+
+@-webkit-keyframes showhidemodea {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+}
+
+.tile{
+  width: 250px;
+  height: 150px;
+}
+
+.textarea{
+  background-color: white;
+  height: auto;
+  width: auto;
+  color: black;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  width: 60%;
+  padding: 10px;
+}
+
+.textareablack{
+  background-color: black;
+  height: auto;
+  width: auto;
+  color: white;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  width: 60%;
+  padding: 10px;
+  text-align: center;
+}
+
+.gamearea{
+	width: 1000px;
+	height: 500px;
+}
+
+.gameareabig{
+	width: 1000px;
+	height: 600px;
+}
+
+.gameareafull{
+	position:fixed; 
+	top:0; 
+	left:0; 
+	bottom:0; 
+	right:0; 
+	width:100%; 
+	height:100%; 
+	border:none; 
+	margin:0; 
+	padding:0; 
+	overflow:hidden; 
+	z-index:999999;
+}
+
+.gameareabtd5{
+	width: 800px;
+	height: 620px;
+}
+
+.overlay-alert {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to bottom right, #000, #000);
+  opacity: 0.5;
+  z-index: 1;
+}
+
+.alert {
+  position: fixed;
+  color: black;
+  background-color: white;
+  text-align: center;
+  padding: 20px;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    animation-name: kfade;
+  animation-duration: .8s;
+}
+
+@-webkit-keyframes kfade {
+  from {
+    opacity: 0;
+	top: 10%
+  }
+  to {
+    opacity: 1;
+	top: 50%
+  }
+}
+
+
+.maintitle{
+	font-weight: bold;
+	font-size: 5em;
+	font-weight: 900;
+	color: white;
+	line-height:0.0em;
+}
+
+.maintagline{
+		font-weight: bold;
+	font-weight: 900;
+	color: white;
+	line-height:0.0em;
+}
+
+.bgmain {
+  background-image: url("../img/mainwall.jpg");
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  position: fixed; 
+  top:0px; 
+  left:0px; 
+  z-index:-2; 
+  width:100%; 
+  margin:auto;
+}
+.color-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to bottom right, #000, #000);
+  opacity: 0.6;
+  z-index: -1;
+}
+
+
+.suboptions{
+	font-weight: bold;
+	font-size: 3em;
+	font-weight: 900;
+	color: white;
+	line-height:0.0em;
+}
+
+.id {
+  padding: 10px 10px;
+  background-color: transparent;
+  color: white;
+  text-decoration: none;
+  border: 0;
+  outline: 0;
+  border-bottom: 1px solid white;
+}
+
+
+.tiles {
+  display: inline-block;
+  width: 25%;
+  float: left;
+  height: 100vh;
+  color: white;
+}
+
+.tiles:hover{
+	font-size: 1.4em;
+}
+
+.tgames{
+	background-position: center;
+  background-size: cover;
+  background-image: url("../img/games.jpg");
+}
+
+.tchat{
+	background-position: center;
+  background-size: cover;
+  background-image: url("../img/chat.jpg");
+}
+
+.tnews{
+	background-position: center;
+  background-size: cover;
+  background-image: url("../img/news.jpg");
+}
+
+.tabout{
+	background-position: center;
+  background-size: cover;
+  background-image: url("../img/about.jpg");
+}
+
+.tilecenter{
+	position: absolute;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+
+
+.cgames{
+	top: 50%;
+	left: 12.5%;
+}
+
+.cchat{
+	top: 50%;
+	left: 37%;
+}
+
+.cnews{
+	top: 50%;
+	left: 63%;
+}
+
+.cabout{
+	top: 50%;
+	left: 88%;
+}
+
+.backbuttonmenu{
+	position: absolute;
+	transform: translate(-50%, -50%);
+	top: 10%;
+	left: 50%;
+}
+
+.linkstyle {
+  background-color: transparent;
+  color: black;
+  border-bottom: thin solid #000;
+  font-size: 1em;
+  text-decoration: none;
+}
+
+.linkstyle:hover {
+  cursor: pointer;
+}
+
+.moviewarning{
+	padding: 10px;
+	background-color: white;
+	border-style: solid;
+	border-color: #e74c3c;
+}

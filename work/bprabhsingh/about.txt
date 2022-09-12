@@ -1,0 +1,11 @@
+<p><span style="font-size:16px"><strong>OVERVIEW</strong></span></p>
+
+<p><span style="font-size:16px">This is a simple website I wanted to make just to organize my work and make my resume easily accessible.</span></p>
+
+<p><span style="font-size:16px"><strong>DEVELOPMENT</strong></span></p>
+
+<p><span style="font-size:16px">Overall, development was straight forward. I had three goals in mind when I started working on this project. Firstly, it had to be responsive. All screen size should work as expected without any sort of unwanted overflow. The website all had to be easy to use. Users should be able to find my work, important links, and resume without a problem. Lastly, it just had to be fun and feel personal!</span></p>
+
+<p><span style="font-size:16px"><strong>FINAL THOUGHTS</strong></span></p>
+
+<p><span style="font-size:16px">Overall, I am happy with the way content is handled. However, there is a lot I would like to change, and I am treating this website more as a placeholder for now. I can&rsquo;t wait to revisit it with a new and better design.</span></p>

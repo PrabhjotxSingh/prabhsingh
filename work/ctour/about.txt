@@ -1,0 +1,11 @@
+<p><span style="font-size:16px"><strong>OVERVIEW</strong></span></p>
+
+<p><span style="font-size:16px">Tour is the probably the oddest project I have worked on. I started working on it because I was growing tired of the C-Panel restrictions on hosting websites. &nbsp;I wanted a quick way to update my websites and make quick changes without doing too much work. I also wanted to be able to access all my files no matter what computer I was on. So, what is Tour exactly? Think of it like an online drive with a virtual &ldquo;desktop&rdquo; build it. Users can upload files, create files with the built-in notepad, access other web servers, listen to music, and customize almost everything.</span></p>
+
+<p><span style="font-size:16px"><strong>DEVELOPMENT</strong></span></p>
+
+<p><span style="font-size:16px">There was no clear development path for this since it was just a tool I wanted to use for my own web servers. However, there were a couple features that I really wanted. These features include easy integration of other apps, lightweight, and highly customizable.</span></p>
+
+<p><span style="font-size:16px"><strong>FINAL THOUGHTS</strong></span></p>
+
+<p><span style="font-size:16px">This was a fun project to work on. I would randomly add new techniques as I learned them it was a great way for me to just play around. Not to mention, I love using it as a drive.</span></p>
