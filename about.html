@@ -3,9 +3,17 @@
 <html>
 <head>
 <meta charset="utf-8"/>
+<script src="js/main.js" defer></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="css/style.css">
+
+<link rel="stylesheet" type="text/css" href="node_modules/fullpage.js/dist/fullpage.css" />
+<script src="node_modules/fullpage.js/vendors/easings.min.js"></script>
+<script type="text/javascript" src="node_modules/fullpage.js/dist/fullpage.js"></script>
 
 <link rel="apple-touch-icon" sizes="180x180" href="img/fav/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="img/fav/favicon-32x32.png">
@@ -16,50 +24,53 @@
 <meta name="keywords" content="frontend, design, student">
 <meta name="description" content="Learn about me.">
 <meta name="author" content="Prabhjot Singh">
-<title>ABOUT-PRABHSINGH</title>
+<title>ABOUT - PRABHSINGH</title>
 
 </head>
 <body>
 <div id="load_screen"><div id="loading"><div class="lds-ring"><div></div><div></div><div></div><div></div></div></div></div>
 
-<style type="text/css">
-body{
-  transform: scale(0.9);
-  background-image: url('img/flow.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-</style>
+<div class="navicon">
+  <div class="navlines"></div>
+  <div class="navlines"></div>
+  <div class="navlines"></div>
+</div>
+<div class="fullnav">
+  <div class="closenavicon">
+  </div>
+  <nav id="nav">
+  <a href="index.html">
+    <span>HOME</span>
+    <img src="img/back.png" />
+  </a>
+  <a href="work.php">
+    <span>WORK</span>
+    <img src="img/work.jpg" />
+  </a>
+  <a href="contact.html">
+    <span>CONTACT</span>
+    <img src="img/contact.jpg" />
+  </a>
+</nav>
+</div>
+
+<br />
 
 <div class="page">
-  <a href="index.html" class="link">BACK</a>
-  <br />
-  <br />
-  <h1>ABOUT ME</h1>
 
-  <p><span style="font-size:16px">Hello! My name is <strong>PRABHJOT SINGH</strong> but I go by <strong>PRABH</strong>. You might be wondering, how do I say that? Well it&#39;s easy! Just cut problem in half. Prob! Anyway now for the more important stuff. I am currently a <strong>THIRD YEAR</strong> studying <strong>COMPUTER SCIENCE</strong> at the <strong>UNIVERSITY OF CINCINNATI (UC)</strong>. I live in&nbsp;<strong>WEST CHESTER TOWNSHIP, OHIO&nbsp;</strong>with my amazing aunt and uncle. Currently, for my current co-op I work at&nbsp;<strong>LONDON COMPUTER SYSTEMS (LCS) </strong>as a developer where I just recently gained hands on experience with real world code and it is still blowing my mind.</span></p>
-
-  <p><span style="font-size:16px">Along with working at LCS, I also work at&nbsp;<strong>OKEANA FOOD MART&nbsp;</strong>as a <strong>CASHIER</strong>, this is a job I have held since the beginning of high school and have truley come to enjoy. While working at the register, I have had the opprotunity to handle inventory, price databases, and backend paperwork.</span></p>
-
-  <p><span style="font-size:16px">During my semester at UC I work as a&nbsp;<strong>TEACHING ASISTANT (TA)</strong>. Working with many incoming freshman has not only deepened my understaing of core engineering ideas but also allowed me to asist students. I really enjoy the TA led sessions and simply helping students when they require it (most rewarding feeling ever). Oh and I guess all the grading can be fun too...</span></p>
-
-  <p><span style="font-size:16px">When I am not in class or working I enjoy running, biking, driving (with a good playlist), and hanging with friends (pictured below). My favorite food is pasta and I drink milk as a refreshment sometimes (which is perfectly normal).</span></p>
-
-  <br />
-  <br />
-
-  <img class="image" height="150px" draggable="false" src="img/fam.jpg" />
-  <img class="image" height="150px" draggable="false" src="img/friends.jpg" />
-  <p>Low quality pictures with with my high quality family :)</p>
-
-  <br />
-  <br />
-  <br />
+<center>
+<div class="about_profile"></div>
+</center>
+<h1 class="light"><span>Hello! My name is <strong>PRABHJOT SINGH</strong> but I go by <strong>PRABH</strong>. You might be wondering, how do I say that? Well it&#39;s easy! Just cut problem in half. Prob!</span></h1>
+<h1 class="light"><span>Anyway now for the more important stuff. I am currently a <strong>THIRD YEAR</strong> studying <strong>COMPUTER SCIENCE</strong> at the <strong>UNIVERSITY OF CINCINNATI (UC)</strong>. I live in&nbsp;<strong>WEST CHESTER TOWNSHIP, OHIO&nbsp;</strong>with my amazing aunt and uncle.</h1>
+<h1 class="light"><span>Currently, for my co-op I work at&nbsp;<strong>LONDON COMPUTER SYSTEMS (LCS) </strong>as a developer where I just recently gained hands on experience with real world code and it is still blowing my mind.</span></h1>
+<p><span>Along with working at LCS, I also work at&nbsp;<strong>OKEANA FOOD MART&nbsp;</strong>as a <strong>CASHIER</strong>, this is a job I have held since the beginning of high school and have truley come to enjoy. While working at the register, I have had the opprotunity to handle inventory, price databases, and backend paperwork.</span></p>
+<p><span>During my semester at UC I work as a&nbsp;<strong>TEACHING ASISTANT (TA)</strong>. Working with many incoming freshman has not only deepened my understaing of core engineering ideas but also allowed me to asist students. I really enjoy the TA led sessions and simply helping students when they require it (most rewarding feeling ever). Oh and I guess all the grading can be fun too...</span></p>
+<p><span>When I am not in class or working I enjoy running, biking, driving (with a good playlist), and hanging with friends. My favorite food is pasta and I drink milk as a refreshment sometimes (which is perfectly normal).</span></p>
 
 </div>
 
-<script src="js/main.js"></script>
-</body>
+<br /><br /><br />
 
+</body>
 </html>

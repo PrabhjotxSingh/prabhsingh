@@ -1,0 +1,152 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<!--
+ _____   _____        ___   _____   _   _        _____   _   __   _   _____   _   _
+|  _  \ |  _  \      /   | |  _  \ | | | |      /  ___/ | | |  \ | | /  ___| | | | |
+| |_| | | |_| |     / /| | | |_| | | |_| |      | |___  | | |   \| | | |     | |_| |
+|  ___/ |  _  /    / / | | |  _  { |  _  |      \___  \ | | | |\   | | |  _  |  _  |
+| |     | | \ \   / /  | | | |_| | | | | |       ___| | | | | | \  | | |_| | | | | |
+|_|     |_|  \_\ /_/   |_| |_____/ |_| |_|      /_____/ |_| |_|  \_| \_____/ |_| |_|
+Why are you even looking at this?
+Instagram: @Prabh5487
+-->
+<meta charset="utf-8"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+<link rel="apple-touch-icon" sizes="180x180" href="img/fav/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="img/fav/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="img/fav/favicon-16x16.png">
+<link rel="manifest" href="img/fav/site.webmanifest">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="keywords" content="frontend, design, student">
+<meta name="description" content="Student and front end developer based in Ohio.">
+<meta name="author" content="Prabhjot Singh">
+<title>PRABHSINGH</title>
+
+</head>
+<body>
+<div id="load_screen"><div id="loading"><div class="lds-ring"><div></div><div></div><div></div><div></div></div></div></div>
+
+<style type="text/css">
+body{
+  transform: scale(0.9);
+-webkit-transition: all 0.3s;
+transition: all 0.3s;
+}
+body:hover{
+box-shadow: -7px 10px 41px -6px rgba(0,0,0,0.83);
+-webkit-box-shadow: -7px 10px 41px -6px rgba(0,0,0,0.83);
+-moz-box-shadow: -7px 10px 41px -6px rgba(0,0,0,0.83);
+}
+@media screen and (max-width: 800px) {
+  body:hover{
+  box-shadow: -7px 10px 41px -6px rgba(0,0,0,0.0);
+  -webkit-box-shadow: -7px 10px 41px -6px rgba(0,0,0,0.0);
+  -moz-box-shadow: -7px 10px 41px -6px rgba(0,0,0,0.0);
+  }
+}
+</style>
+
+<div class="parent">
+<div  onclick="window.location='contact.html';" class="div1 center_grid hovergrid">
+  <p>CONTACT ME  <i class="fa fa-external-link fa-1x" aria-hidden="true"></i></p>
+</div>
+
+<div class="div2 center_grid"></div>
+
+<div onclick="window.location='work.php';" class="div3 center_grid hovergrid">
+<p>LET'S TALK ABOUT WORK  <i class="fa fa-external-link fa-1x" aria-hidden="true"></i></p>
+</div>
+
+<div class="div4 center_grid">
+<p>HELLO, MY NAME IS PRABH!</p>
+</div>
+
+<div onclick="window.location='about.html';" class="div5 center_grid hovergrid">
+  <p>GET TO KNOW ME  <i class="fa fa-external-link fa-1x" aria-hidden="true"></i></p>
+</div>
+
+<div class="div6 center_grid"></div>
+</div>
+
+<div class="mobileview">
+
+  <div class="mobile_title">
+    <div class="center_mobile_title">
+      <center>
+    <div class="profile"></div>
+    <h2>Hi, my name is Prabh!</h2>
+    <p>↓</p>
+  </center>
+  </div>
+  </div>
+
+<div class="menuitemscontain">
+
+  <div style="background-color: #47B5FF;" class="menubox">
+    <div class="menuboxcenter">
+      <h3>I am a third year computer science student at the University of Cincinnati.</h3>
+      <a href="about.html" class="menuboxbtn">Get to know me  <i class="fa fa-external-link fa-1x" aria-hidden="true"></i></a>
+    </div>
+  </div>
+
+  <div style="background-image: url('img/uc.jpg');" class="menuboximg">
+  </div>
+
+  <div style="background-color: #1363DF;" class="menubox">
+    <div class="menuboxcenter">
+      <h3>On the side I like working on projects for fun!</h3>
+      <a href="work.php" class="menuboxbtn">LET'S TALK ABOUT WORK  <i class="fa fa-external-link fa-1x" aria-hidden="true"></i></a>
+    </div>
+  </div>
+
+  <div style="background-image: url('img/cin.jpg');" class="menuboximg">
+  </div>
+
+  <div style="background-color: #06283d;" class="menubox">
+    <div class="menuboxcenter">
+      <h3>Want to get in touch with me?</h3>
+      <a href="contact.html" class="menuboxbtn">Contact me  <i class="fa fa-external-link fa-1x" aria-hidden="true"></i></a>
+    </div>
+  </div>
+
+</div>
+
+</div>
+
+<a href="resume-singh.pdf" target="_blank">
+<div class="resumefloat notify-bubble">
+  <span>View my resume!</span>
+  <span class="badge">1</span>
+</div>
+</a>
+
+<div class="warning">
+<div class="overlay-alert"></div>
+<div class="alert snormal afade-aslide">
+  <button id="nevershow-warning" class='linkblack'>NEVER SHOW AGAIN</button>
+  <h2>A small issue...</h2>
+  <p>Firstly, thanks for visiting my website! It means a lot!</p>
+  <p>I just wanted to inform you that there are still a lot changes I am working on. My apologies if you encounter any missing pages, spelling mistakes, or have just a bad experience. I will be working on addressing everything soon.</p>
+</div>
+</div>
+
+<script>
+    if(localStorage.getItem("DontShowWarning")) {
+        $(".warning").hide();
+    }
+    $(document).on("click", "#nevershow-warning", function() {
+        localStorage.setItem("DontShowWarning", "true");
+        $(".warning").hide();
+    });
+</script>
+<script src="js/main.js"></script>
+</body>
+
+</html>

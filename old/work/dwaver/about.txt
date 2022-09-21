@@ -1,0 +1,11 @@
+<p><span style="font-size:16px"><strong>OVERVIEW</strong></span></p>
+
+<p><span style="font-size:16px">This is probably the first &ldquo;real&rdquo; website I made that got visitors. In high school when we were all given Chromebook, Pok&eacute;mon and similar games blew up. Unfortunately, it didn&rsquo;t take long for the school to block it. So, I decided to make a website that could not be blocked. Waver had tons of games, a built-in browser that could open any website, a movies section, and finally a hide button that would display a Google Doc overlay to make it look like the user is working. Although this sound kind of childish, it was a lot of fun making. I loved walking around school and seeing students play games on my website.</span></p>
+
+<p><span style="font-size:16px"><strong>DEVELOPMENT</strong></span></p>
+
+<p><span style="font-size:16px">This website was not serious at all and was made just for fun.</span></p>
+
+<p><span style="font-size:16px"><strong>FINAL THOUGHTS</strong></span></p>
+
+<p><span style="font-size:16px">No final thoughts on this. If you are reading this, please look at my more serious projects. I don&rsquo;t even know why this is on the list.</span></p>

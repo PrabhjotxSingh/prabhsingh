@@ -15,37 +15,24 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="author" content="Prabhjot Singh">
-<title>READ-PRABHSINGH</title>
+<title>READ - <?php echo file_get_contents("name.txt"); ?> - PRABHSINGH</title>
 
 </head>
 <body>
 <div id="load_screen"><div id="loading"><div class="lds-ring"><div></div><div></div><div></div><div></div></div></div></div>
-
-<style type="text/css">
-body{
-  transform: scale(0.9);
-  background-image: url('../../img/flow.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-</style>
 
 <div class="page">
   <a href="../../work.php" class="link">BACK</a>
   <br />
   <br />
   <h1><?php echo file_get_contents("name.txt"); ?></h1>
-
   <?php echo file_get_contents("about.txt"); ?>
   <br />
   <br />
-  <a target="_blank" href="view/" class="menuboxbtn">View the project  <i class="fa fa-external-link fa-1x" aria-hidden="true"></i></a>
-
+  <a target="_blank" href="view/" class="btn">View the project  <i class="fa fa-external-link fa-1x" aria-hidden="true"></i></a>
   <br />
   <br />
   <br />
-
 </div>
 
 <script src="../../js/main.js"></script>

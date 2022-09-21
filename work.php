@@ -3,8 +3,11 @@
 <html>
 <head>
 <meta charset="utf-8"/>
+<script src="js/main.js" defer></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="css/style.css">
 
@@ -15,30 +18,68 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="keywords" content="frontend, design, student">
-<meta name="description" content="Check out my work.">
+<meta name="description" content="Let's talk about work.">
 <meta name="author" content="Prabhjot Singh">
-<title>WORK-PRABHSINGH</title>
+<title>WORK - PRABHSINGH</title>
 
 </head>
 <body>
 <div id="load_screen"><div id="loading"><div class="lds-ring"><div></div><div></div><div></div><div></div></div></div></div>
 
-<style type="text/css">
-body{
-  background-image: url('img/flow.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-</style>
+<div class="navicon">
+  <div class="navlines"></div>
+  <div class="navlines"></div>
+  <div class="navlines"></div>
+</div>
+<div class="fullnav">
+  <div class="closenavicon">
+  </div>
+  <nav id="nav">
+    <a href="index.html">
+      <span>HOME</span>
+      <img src="img/back.png" />
+    </a>
+  <a href="about.html">
+    <span>ABOUT</span>
+    <img src="img/about.jpg" />
+  </a>
+  <a href="contact.html">
+    <span>CONTACT</span>
+    <img src="img/contact.jpg" />
+  </a>
+</nav>
+</div>
 
-<div class="page-work">
-  <a href="index.html" class="link">BACK</a>
+<br /><br /><br />
+
+<div class="work_page">
+
+  <h1 class="bold homepage_lh">EDUCATION</h1>
+  <hr>
+  <h2 class="bold homepage_lh">University of Cincinnati</h2>
+  <h3 class="light homepage_lh">Bachelor of Science in Computer Science</h3>
+  <p class="homepage_lh light"><b>GPA:</b> 3.6&nbsp;&nbsp;&nbsp;<b>CLASS OF:</b> 2025</p>
 
   <br />
-  <br />
-  <h1>MY WORK</h1>
 
+  <h1 class="bold homepage_lh">CURRENT EXPERIENCE</h1>
+  <hr>
+  <h2 class="bold homepage_lh">Developer</h2>
+  <h3 class="bold homepage_lh">London Computer Systems</h3>
+  <p class="homepage_lh light">•Develop using C# and Angular</p>
+  <p class="homepage_lh light">•Test complex web applications</p>
+  <br />
+  <h2 class="bold homepage_lh">Teaching Assistant</h2>
+  <h3 class="bold homepage_lh">University of Cincinnati</h3>
+  <p class="homepage_lh light">•Provide assistance to students and deliver content</p>
+  <p class="homepage_lh light">•Grade large quantities of homework, exams, and projects</p>
+  <br />
+  <a target="_blank" href="resume-singh.pdf" class="link">SEE MORE ➔</i></a>
+
+  <br><br>
+
+  <h1 class="bold homepage_lh">PROJECTS</h1>
+  <hr>
   <!-- Show WORK -->
   <?php
 
@@ -65,26 +106,9 @@ body{
   }
   ?>
   <!--End of show work-->
-  <br /><br />
-  <!--
-  <a href="#missing" class="menuboxbtn">Why are so many missing?</i></a>
-  -->
 
-  <h1>IMPORTANT LINKS</h1>
-  <a target="_blank" href="resume-singh.pdf" class="menuboxbtn">View my resume  <i class="fa fa-external-link fa-1x" aria-hidden="true"></i></a>
-  <div class="mobile_element">
-  <br />
-  </div>
-  <a target="_blank" href="https://www.linkedin.com/in/prabhjot-singh-3ab84b161/" class="menuboxbtn">Check out my Linkedin  <i class="fa fa-external-link fa-1x" aria-hidden="true"></i></a>
-  <div class="mobile_element">
-  <br />
-  </div>
-  <a target="_blank" href="https://github.com/PrabhjotxSingh" class="menuboxbtn">Visit my GitHub  <i class="fa fa-external-link fa-1x" aria-hidden="true"></i></a>
 
-  <br />
-  <br />
-  <br />
-
+<br /><br /><br /><br />
 </div>
 
 <!-- Popup fe -->
@@ -100,7 +124,7 @@ foreach(glob($dir) as $popup)
   <div class='".$v[0]."'>
     <div class='overlay-alert'></div>
     <div class='alert snormal afade-aslide'>
-    <a id='close".$v[0]."' class='linkblack'>CLOSE</a>
+    <a id='close".$v[0]."' class='linkb'>CLOSE</a>
     <h2>".$name{$v[0]}."</h2>
     <a href='work/".$v[0]."/' class='menuboxbtnpop'>Read about it  <i class='fa fa-external-link fa-1x' aria-hidden='true'></i></a>
     <div class='mobile_element'>
@@ -115,8 +139,6 @@ foreach(glob($dir) as $popup)
 }
 ?>
 <!-- popup fe END-->
-
-<script src="js/main.js"></script>
 
 <!-- Popup js -->
 <?php
@@ -146,5 +168,4 @@ foreach(glob($dir) as $popup)
 
 
 </body>
-
 </html>

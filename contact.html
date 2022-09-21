@@ -3,8 +3,11 @@
 <html>
 <head>
 <meta charset="utf-8"/>
+<script src="js/main.js" defer></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="css/style.css">
 
@@ -15,26 +18,41 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="keywords" content="frontend, design, student">
-<meta name="description" content="Contact me and let us get in touch!.">
+<meta name="description" content="Contact me.">
 <meta name="author" content="Prabhjot Singh">
-<title>CONTACT-PRABHSINGH</title>
+<title>CONTACT - PRABHSINGH</title>
 
 </head>
 <body>
 <div id="load_screen"><div id="loading"><div class="lds-ring"><div></div><div></div><div></div><div></div></div></div></div>
 
-<style type="text/css">
-body{
-  background-image: url('img/flow.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-</style>
+<div class="navicon">
+  <div class="navlines"></div>
+  <div class="navlines"></div>
+  <div class="navlines"></div>
+</div>
+<div class="fullnav">
+  <div class="closenavicon">
+  </div>
+  <nav id="nav">
+    <a href="index.html">
+      <span>HOME</span>
+      <img src="img/back.png" />
+    </a>
+  <a href="about.html">
+    <span>ABOUT</span>
+    <img src="img/about.jpg" />
+  </a>
+  <a href="work.php">
+    <span>WORK</span>
+    <img src="img/work.jpg" />
+  </a>
+</nav>
+</div>
 
-<div class="contact_center">
-  <a href="index.html" class="link">BACK</a>
-  <h2>CONTACT ME</h2>
+<div class="contact_email">
+  <h1 class="bold contact_email_txt">SINGH2PT@MAIL.UC.EDU</h1>
+  <br />
   <a title="singh2pt@mail.uc.edu" href="mailto:singh2pt@mail.uc.edu" class="btncon"><i class="fa fa-envelope-o fa-1x" aria-hidden="true"></i></a>
   <a title="+1 513-883-5552" href="tel:513-883-5552" class="btncon"><i class="fa fa-phone fa-1x" aria-hidden="true"></i></a>
   <a href="https://www.linkedin.com/in/prabhjot-singh-3ab84b161/" class="btncon"><i class="fa fa-linkedin fa-1x" aria-hidden="true"></i></a>
@@ -42,7 +60,5 @@ body{
   <a href="https://twitter.com/PrabhSingh_" class="btncon"><i class="fa fa-twitter fa-1x" aria-hidden="true"></i></a>
 </div>
 
-<script src="js/main.js"></script>
 </body>
-
 </html>
