@@ -54,31 +54,38 @@
 
 <div class="work_page">
 
-  <h1 class="bold homepage_lh">EDUCATION</h1>
+  <h1 class="bold homepage_lh dynamic_heading">EDUCATION</h1>
   <hr>
   <h2 class="bold homepage_lh">University of Cincinnati</h2>
-  <h3 class="light homepage_lh">Bachelor of Science in Computer Science</h3>
-  <p class="homepage_lh light"><b>GPA:</b> 3.6&nbsp;&nbsp;&nbsp;<b>CLASS OF:</b> 2025</p>
-
+  <span class="light">Bachelor of Science in Computer Science</span>
   <br />
+  <span class="light"><b>GPA:</b> 3.6&nbsp;&nbsp;&nbsp;<b>CLASS OF:</b> 2025</span>
 
-  <h1 class="bold homepage_lh">CURRENT EXPERIENCE</h1>
+  <br /><br />
+
+  <h1 class="bold homepage_lh dynamic_heading">CURRENT EXPERIENCE</h1>
   <hr>
   <h2 class="bold homepage_lh">Developer</h2>
   <h3 class="bold homepage_lh">London Computer Systems</h3>
-  <p class="homepage_lh light">•Develop using C# and Angular</p>
-  <p class="homepage_lh light">•Test complex web applications</p>
+  <span class="light">•Develop using C# and Angular</span>
   <br />
+  <span class="light">•Test complex web applications</span>
+
+  <br /><br />
+
   <h2 class="bold homepage_lh">Teaching Assistant</h2>
   <h3 class="bold homepage_lh">University of Cincinnati</h3>
-  <p class="homepage_lh light">•Provide assistance to students and deliver content</p>
-  <p class="homepage_lh light">•Grade large quantities of homework, exams, and projects</p>
+  <span class="light">•Provide assistance to students and deliver content</span>
   <br />
+  <span class="light">•Grade large quantities of homework, exams, and projects</span>
+
+  <br /><br />
+
   <a target="_blank" href="resume-singh.pdf" class="link">SEE MORE ➔</i></a>
 
-  <br><br>
+  <br /><br />
 
-  <h1 class="bold homepage_lh">PROJECTS</h1>
+  <h1 class="bold homepage_lh dynamic_heading">PROJECTS</h1>
   <hr>
   <!-- Show WORK -->
   <?php
@@ -101,7 +108,7 @@
   ";
 
   echo "
-    <div class='worktile' id='show".$v[0]."' style='background-image: url(\"".$image{$v[0]}."\");'><div class='worktile_center'>".$name{$v[0]}."</div></div>
+    <div class='worktile' id='show".$v[0]."'><div class='worktile_center'>".$name{$v[0]}." ➔</div></div>
   ";
   }
   ?>

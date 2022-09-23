@@ -62,3 +62,28 @@ var options = {
 };
 var particleCanvas = new ParticleNetwork(canvasDiv, options);
 //particles end
+
+//secret message
+if (window.addEventListener) {
+    var keys = [],
+        teju = "84,69,74,85";
+    window.addEventListener("keydown", function(e){
+        keys.push(e.keyCode);
+        if (keys.toString().indexOf(teju) >= 0) {
+             alert('Hey TJ! Welcome to my website! <3');
+						 pswrd = prompt("You will need to enter a password to prove it's really you. What is our song?")
+						 pswrd = pswrd.toLowerCase();
+						 if(pswrd == 'ruby fields'){
+							 alert('You are in ;)');
+							 alert('Press OK to continue');
+							 window.location.href = "img/tj/index.html";
+
+						 }
+						 else{
+							 alert('Come on TJ, think!');
+						 }
+            keys = [];
+        };
+    }, true);
+};
+//secret message end
