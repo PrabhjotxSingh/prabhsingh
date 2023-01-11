@@ -554,6 +554,24 @@ video::-webkit-media-controls {
 		font-size: 0.8em;
 	}
 }
+
+.page-about{
+	background-color: transparent;
+	height: auto;
+	width: auto;
+	color: white;
+	margin-bottom: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	width: 60%;
+}
+
+@media screen and (max-width: 1000px) {
+	.page-about {
+		width: 80%;
+	}
+}
 /*About me end */
 
 /*contact*/
