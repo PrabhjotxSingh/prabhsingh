@@ -67,7 +67,7 @@
   <hr>
   <h2 class="bold homepage_lh">Developer</h2>
   <h3 class="bold homepage_lh">London Computer Systems</h3>
-  <span class="light">•Develop using C# and Angular</span>
+  <span class="light">•Develop a ticketing tool using C# and Angular</span>
   <br />
   <span class="light">•Test complex web applications</span>
 
