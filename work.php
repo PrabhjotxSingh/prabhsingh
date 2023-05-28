@@ -63,8 +63,16 @@
 
   <br /><br />
 
-  <h1 class="bold homepage_lh dynamic_heading">CURRENT EXPERIENCE</h1>
+  <h1 class="bold homepage_lh dynamic_heading">RECENT EXPERIENCE</h1>
   <hr>
+  <h2 class="bold homepage_lh">Developer</h2>
+  <h3 class="bold homepage_lh">Siemens</h3>
+  <span class="light">•Develop tools using modern web frameworks</span>
+  <br />
+  <span class="light">•Collaborate with large multinational team</span>
+
+  <br /><br />
+
   <h2 class="bold homepage_lh">Developer</h2>
   <h3 class="bold homepage_lh">London Computer Systems</h3>
   <span class="light">•Develop a ticketing tool using C# and Angular</span>
