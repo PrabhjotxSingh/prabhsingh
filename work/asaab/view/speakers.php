@@ -66,11 +66,11 @@ Instagram: @Prabh5487
     $k = pathinfo($mp3);
     $m = $k['basename'];
     $v = explode(".",$k['basename']);
-    $lastname{$v[0]} = file_get_contents("data/allspeakers/".$v[0]."/last.txt");
-    $firstname{$v[0]} = file_get_contents("data/allspeakers/".$v[0]."/first.txt");
+    $lastname[$v[0]] = file_get_contents("data/allspeakers/".$v[0]."/last.txt");
+    $firstname[$v[0]] = file_get_contents("data/allspeakers/".$v[0]."/first.txt");
 	  echo "
     <a class='spboxlink' href='data/allspeakers/".$v[0]."/main.php'>
-    <div style=\"background-image: url('data/allspeakers/".$v[0]."/thumb.jpg')\" class='spbox'> ".$firstname{$v[0]}." <br /> ".$lastname{$v[0]}." </div>
+    <div style=\"background-image: url('data/allspeakers/".$v[0]."/thumb.jpg')\" class='spbox'> ".$firstname[$v[0]]." <br /> ".$lastname[$v[0]]." </div>
     </a>
     ";
   }

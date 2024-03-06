@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -104,8 +103,8 @@
   {
   $k = pathinfo($work);
   $v = explode(".",$k['basename']);
-  $name{$v[0]} = file_get_contents("work/".$v[0]."/name.txt");
-  $image{$v[0]} = 'work/'.$v[0].'/screenshot.png';
+  $name[$v[0]] = file_get_contents("work/".$v[0]."/name.txt");
+  $image[$v[0]] = 'work/'.$v[0].'/screenshot.png';
 
   echo "
   <style type='text/css'>
@@ -116,7 +115,7 @@
   ";
 
   echo "
-    <div class='worktile' id='show".$v[0]."'><div class='worktile_center'>".$name{$v[0]}." ➔</div></div>
+    <div class='worktile' id='show".$v[0]."'><div class='worktile_center'>".$name[$v[0]]." ➔</div></div>
   ";
   }
   ?>
@@ -140,7 +139,7 @@ foreach(glob($dir) as $popup)
     <div class='overlay-alert'></div>
     <div class='alert snormal afade-aslide'>
     <a id='close".$v[0]."' class='linkb'>CLOSE</a>
-    <h2>".$name{$v[0]}."</h2>
+    <h2>".$name[$v[0]]."</h2>
     <a href='work/".$v[0]."/' class='menuboxbtnpop'>Read about it  <i class='fa fa-external-link fa-1x' aria-hidden='true'></i></a>
     <div class='mobile_element'>
     <br />
